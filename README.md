@@ -1,6 +1,6 @@
 # Crimson Rooster Kitchen — Restaurant Website (HTML + CSS)
 
-A visually appealing, multi-page restaurant website with a soft white background and red/yellow theme. Built with **only HTML and CSS** (no JavaScript).
+A visually appealing, multi-page restaurant website with a soft white background and red/yellow theme. Built with **only HTML and CSS**.
 
 ## Pages
 
