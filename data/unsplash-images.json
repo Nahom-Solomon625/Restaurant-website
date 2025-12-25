@@ -1,0 +1,113 @@
+﻿{
+    "meta":  {
+                 "purpose":  "Edit Unsplash image URLs here, then copy into the HTML (no JavaScript is used to load this file).",
+                 "generatedAt":  "2025-12-25T20:41:21",
+                 "note":  "source.unsplash.com is returning 503, so this site uses images.unsplash.com links from Unsplash napi search."
+             },
+    "images":  {
+                   "homeHero":  {
+                                    "query":  "fried chicken",
+                                    "raw":  "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8ZnJpZWQlMjBjaGlja2VufGVufDB8fHx8MTc2NjY4NDQ1MXww\u0026ixlib=rb-4.1.0",
+                                    "hero":  "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8ZnJpZWQlMjBjaGlja2VufGVufDB8fHx8MTc2NjY4NDQ1MXww\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=80",
+                                    "card":  "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8ZnJpZWQlMjBjaGlja2VufGVufDB8fHx8MTc2NjY4NDQ1MXww\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=1200\u0026q=80",
+                                    "square":  "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8ZnJpZWQlMjBjaGlja2VufGVufDB8fHx8MTc2NjY4NDQ1MXww\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=900\u0026h=900\u0026q=80",
+                                    "full":  "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8ZnJpZWQlMjBjaGlja2VufGVufDB8fHx8MTc2NjY4NDQ1MXww\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=85"
+                                },
+                   "homeSandwich":  {
+                                        "query":  "chicken sandwich",
+                                        "raw":  "https://images.unsplash.com/photo-1703219342329-fce8488cf443?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHNhbmR3aWNofGVufDB8fHx8MTc2NjY4NDQ1Mnww\u0026ixlib=rb-4.1.0",
+                                        "hero":  "https://images.unsplash.com/photo-1703219342329-fce8488cf443?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHNhbmR3aWNofGVufDB8fHx8MTc2NjY4NDQ1Mnww\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=80",
+                                        "card":  "https://images.unsplash.com/photo-1703219342329-fce8488cf443?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHNhbmR3aWNofGVufDB8fHx8MTc2NjY4NDQ1Mnww\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=1200\u0026q=80",
+                                        "square":  "https://images.unsplash.com/photo-1703219342329-fce8488cf443?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHNhbmR3aWNofGVufDB8fHx8MTc2NjY4NDQ1Mnww\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=900\u0026h=900\u0026q=80",
+                                        "full":  "https://images.unsplash.com/photo-1703219342329-fce8488cf443?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHNhbmR3aWNofGVufDB8fHx8MTc2NjY4NDQ1Mnww\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=85"
+                                    },
+                   "homeGrilled":  {
+                                       "query":  "grilled chicken",
+                                       "raw":  "https://images.unsplash.com/photo-1712579733874-c3a79f0f9d12?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Z3JpbGxlZCUyMGNoaWNrZW58ZW58MHx8fHwxNzY2Njg0NDUzfDA\u0026ixlib=rb-4.1.0",
+                                       "hero":  "https://images.unsplash.com/photo-1712579733874-c3a79f0f9d12?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Z3JpbGxlZCUyMGNoaWNrZW58ZW58MHx8fHwxNzY2Njg0NDUzfDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=80",
+                                       "card":  "https://images.unsplash.com/photo-1712579733874-c3a79f0f9d12?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Z3JpbGxlZCUyMGNoaWNrZW58ZW58MHx8fHwxNzY2Njg0NDUzfDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=1200\u0026q=80",
+                                       "square":  "https://images.unsplash.com/photo-1712579733874-c3a79f0f9d12?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Z3JpbGxlZCUyMGNoaWNrZW58ZW58MHx8fHwxNzY2Njg0NDUzfDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=900\u0026h=900\u0026q=80",
+                                       "full":  "https://images.unsplash.com/photo-1712579733874-c3a79f0f9d12?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Z3JpbGxlZCUyMGNoaWNrZW58ZW58MHx8fHwxNzY2Njg0NDUzfDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=85"
+                                   },
+                   "homeWings":  {
+                                     "query":  "chicken wings",
+                                     "raw":  "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHdpbmdzfGVufDB8fHx8MTc2NjY4NDQ1M3ww\u0026ixlib=rb-4.1.0",
+                                     "hero":  "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHdpbmdzfGVufDB8fHx8MTc2NjY4NDQ1M3ww\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=80",
+                                     "card":  "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHdpbmdzfGVufDB8fHx8MTc2NjY4NDQ1M3ww\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=1200\u0026q=80",
+                                     "square":  "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHdpbmdzfGVufDB8fHx8MTc2NjY4NDQ1M3ww\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=900\u0026h=900\u0026q=80",
+                                     "full":  "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHdpbmdzfGVufDB8fHx8MTc2NjY4NDQ1M3ww\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=85"
+                                 },
+                   "galleryInterior":  {
+                                           "query":  "restaurant interior warm",
+                                           "raw":  "https://images.unsplash.com/photo-1676716244847-3fae1a2afb5b?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGludGVyaW9yJTIwd2FybXxlbnwwfHx8fDE3NjY2ODQ0NTR8MA\u0026ixlib=rb-4.1.0",
+                                           "hero":  "https://images.unsplash.com/photo-1676716244847-3fae1a2afb5b?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGludGVyaW9yJTIwd2FybXxlbnwwfHx8fDE3NjY2ODQ0NTR8MA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=80",
+                                           "card":  "https://images.unsplash.com/photo-1676716244847-3fae1a2afb5b?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGludGVyaW9yJTIwd2FybXxlbnwwfHx8fDE3NjY2ODQ0NTR8MA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=1200\u0026q=80",
+                                           "square":  "https://images.unsplash.com/photo-1676716244847-3fae1a2afb5b?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGludGVyaW9yJTIwd2FybXxlbnwwfHx8fDE3NjY2ODQ0NTR8MA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=900\u0026h=900\u0026q=80",
+                                           "full":  "https://images.unsplash.com/photo-1676716244847-3fae1a2afb5b?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGludGVyaW9yJTIwd2FybXxlbnwwfHx8fDE3NjY2ODQ0NTR8MA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=85"
+                                       },
+                   "galleryTable":  {
+                                        "query":  "restaurant table food",
+                                        "raw":  "https://images.unsplash.com/photo-1707715166604-ba1d028a1b4e?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMHRhYmxlJTIwZm9vZHxlbnwwfHx8fDE3NjY2ODQ0NTV8MA\u0026ixlib=rb-4.1.0",
+                                        "hero":  "https://images.unsplash.com/photo-1707715166604-ba1d028a1b4e?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMHRhYmxlJTIwZm9vZHxlbnwwfHx8fDE3NjY2ODQ0NTV8MA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=80",
+                                        "card":  "https://images.unsplash.com/photo-1707715166604-ba1d028a1b4e?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMHRhYmxlJTIwZm9vZHxlbnwwfHx8fDE3NjY2ODQ0NTV8MA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=1200\u0026q=80",
+                                        "square":  "https://images.unsplash.com/photo-1707715166604-ba1d028a1b4e?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMHRhYmxlJTIwZm9vZHxlbnwwfHx8fDE3NjY2ODQ0NTV8MA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=900\u0026h=900\u0026q=80",
+                                        "full":  "https://images.unsplash.com/photo-1707715166604-ba1d028a1b4e?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMHRhYmxlJTIwZm9vZHxlbnwwfHx8fDE3NjY2ODQ0NTV8MA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=85"
+                                    },
+                   "fries":  {
+                                 "query":  "french fries",
+                                 "raw":  "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8ZnJlbmNoJTIwZnJpZXN8ZW58MHx8fHwxNzY2Njg0NDU2fDA\u0026ixlib=rb-4.1.0",
+                                 "hero":  "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8ZnJlbmNoJTIwZnJpZXN8ZW58MHx8fHwxNzY2Njg0NDU2fDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=80",
+                                 "card":  "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8ZnJlbmNoJTIwZnJpZXN8ZW58MHx8fHwxNzY2Njg0NDU2fDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=1200\u0026q=80",
+                                 "square":  "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8ZnJlbmNoJTIwZnJpZXN8ZW58MHx8fHwxNzY2Njg0NDU2fDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=900\u0026h=900\u0026q=80",
+                                 "full":  "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8ZnJlbmNoJTIwZnJpZXN8ZW58MHx8fHwxNzY2Njg0NDU2fDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=85"
+                             },
+                   "coleslaw":  {
+                                    "query":  "coleslaw",
+                                    "raw":  "https://images.unsplash.com/photo-1537784969314-05a37106f68e?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y29sZXNsYXd8ZW58MHx8fHwxNzY2Njg0NDU2fDA\u0026ixlib=rb-4.1.0",
+                                    "hero":  "https://images.unsplash.com/photo-1537784969314-05a37106f68e?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y29sZXNsYXd8ZW58MHx8fHwxNzY2Njg0NDU2fDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=80",
+                                    "card":  "https://images.unsplash.com/photo-1537784969314-05a37106f68e?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y29sZXNsYXd8ZW58MHx8fHwxNzY2Njg0NDU2fDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=1200\u0026q=80",
+                                    "square":  "https://images.unsplash.com/photo-1537784969314-05a37106f68e?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y29sZXNsYXd8ZW58MHx8fHwxNzY2Njg0NDU2fDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=900\u0026h=900\u0026q=80",
+                                    "full":  "https://images.unsplash.com/photo-1537784969314-05a37106f68e?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y29sZXNsYXd8ZW58MHx8fHwxNzY2Njg0NDU2fDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=85"
+                                },
+                   "corn":  {
+                                "query":  "street corn",
+                                "raw":  "https://images.unsplash.com/photo-1570716774271-ab30ad4924a8?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8c3RyZWV0JTIwY29ybnxlbnwwfHx8fDE3NjY2ODQ0NTd8MA\u0026ixlib=rb-4.1.0",
+                                "hero":  "https://images.unsplash.com/photo-1570716774271-ab30ad4924a8?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8c3RyZWV0JTIwY29ybnxlbnwwfHx8fDE3NjY2ODQ0NTd8MA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=80",
+                                "card":  "https://images.unsplash.com/photo-1570716774271-ab30ad4924a8?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8c3RyZWV0JTIwY29ybnxlbnwwfHx8fDE3NjY2ODQ0NTd8MA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=1200\u0026q=80",
+                                "square":  "https://images.unsplash.com/photo-1570716774271-ab30ad4924a8?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8c3RyZWV0JTIwY29ybnxlbnwwfHx8fDE3NjY2ODQ0NTd8MA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=900\u0026h=900\u0026q=80",
+                                "full":  "https://images.unsplash.com/photo-1570716774271-ab30ad4924a8?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8c3RyZWV0JTIwY29ybnxlbnwwfHx8fDE3NjY2ODQ0NTd8MA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=85"
+                            },
+                   "lemonade":  {
+                                    "query":  "lemonade drink",
+                                    "raw":  "https://images.unsplash.com/photo-1573500883698-e3ef47a95feb?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8bGVtb25hZGUlMjBkcmlua3xlbnwwfHx8fDE3NjY2ODQ0NTh8MA\u0026ixlib=rb-4.1.0",
+                                    "hero":  "https://images.unsplash.com/photo-1573500883698-e3ef47a95feb?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8bGVtb25hZGUlMjBkcmlua3xlbnwwfHx8fDE3NjY2ODQ0NTh8MA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=80",
+                                    "card":  "https://images.unsplash.com/photo-1573500883698-e3ef47a95feb?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8bGVtb25hZGUlMjBkcmlua3xlbnwwfHx8fDE3NjY2ODQ0NTh8MA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=1200\u0026q=80",
+                                    "square":  "https://images.unsplash.com/photo-1573500883698-e3ef47a95feb?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8bGVtb25hZGUlMjBkcmlua3xlbnwwfHx8fDE3NjY2ODQ0NTh8MA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=900\u0026h=900\u0026q=80",
+                                    "full":  "https://images.unsplash.com/photo-1573500883698-e3ef47a95feb?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8bGVtb25hZGUlMjBkcmlua3xlbnwwfHx8fDE3NjY2ODQ0NTh8MA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=85"
+                                },
+                   "dessert":  {
+                                   "query":  "vanilla cake dessert",
+                                   "raw":  "https://images.unsplash.com/photo-1536599524557-5f784dd53282?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8dmFuaWxsYSUyMGNha2UlMjBkZXNzZXJ0fGVufDB8fHx8MTc2NjY4NDQ1OXww\u0026ixlib=rb-4.1.0",
+                                   "hero":  "https://images.unsplash.com/photo-1536599524557-5f784dd53282?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8dmFuaWxsYSUyMGNha2UlMjBkZXNzZXJ0fGVufDB8fHx8MTc2NjY4NDQ1OXww\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=80",
+                                   "card":  "https://images.unsplash.com/photo-1536599524557-5f784dd53282?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8dmFuaWxsYSUyMGNha2UlMjBkZXNzZXJ0fGVufDB8fHx8MTc2NjY4NDQ1OXww\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=1200\u0026q=80",
+                                   "square":  "https://images.unsplash.com/photo-1536599524557-5f784dd53282?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8dmFuaWxsYSUyMGNha2UlMjBkZXNzZXJ0fGVufDB8fHx8MTc2NjY4NDQ1OXww\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=900\u0026h=900\u0026q=80",
+                                   "full":  "https://images.unsplash.com/photo-1536599524557-5f784dd53282?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8dmFuaWxsYSUyMGNha2UlMjBkZXNzZXJ0fGVufDB8fHx8MTc2NjY4NDQ1OXww\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=85"
+                               },
+                   "platter":  {
+                                   "query":  "chicken platter",
+                                   "raw":  "https://images.unsplash.com/photo-1612185533785-cc6f4c55030b?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHBsYXR0ZXJ8ZW58MHx8fHwxNzY2Njg0NDYwfDA\u0026ixlib=rb-4.1.0",
+                                   "hero":  "https://images.unsplash.com/photo-1612185533785-cc6f4c55030b?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHBsYXR0ZXJ8ZW58MHx8fHwxNzY2Njg0NDYwfDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=80",
+                                   "card":  "https://images.unsplash.com/photo-1612185533785-cc6f4c55030b?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHBsYXR0ZXJ8ZW58MHx8fHwxNzY2Njg0NDYwfDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=1200\u0026q=80",
+                                   "square":  "https://images.unsplash.com/photo-1612185533785-cc6f4c55030b?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHBsYXR0ZXJ8ZW58MHx8fHwxNzY2Njg0NDYwfDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=900\u0026h=900\u0026q=80",
+                                   "full":  "https://images.unsplash.com/photo-1612185533785-cc6f4c55030b?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHBsYXR0ZXJ8ZW58MHx8fHwxNzY2Njg0NDYwfDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=85"
+                               },
+                   "contactHero":  {
+                                       "query":  "restaurant host",
+                                       "raw":  "https://images.unsplash.com/photo-1588560107833-167198a53677?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGhvc3R8ZW58MHx8fHwxNzY2Njg0NDYwfDA\u0026ixlib=rb-4.1.0",
+                                       "hero":  "https://images.unsplash.com/photo-1588560107833-167198a53677?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGhvc3R8ZW58MHx8fHwxNzY2Njg0NDYwfDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=80",
+                                       "card":  "https://images.unsplash.com/photo-1588560107833-167198a53677?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGhvc3R8ZW58MHx8fHwxNzY2Njg0NDYwfDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=1200\u0026q=80",
+                                       "square":  "https://images.unsplash.com/photo-1588560107833-167198a53677?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGhvc3R8ZW58MHx8fHwxNzY2Njg0NDYwfDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=900\u0026h=900\u0026q=80",
+                                       "full":  "https://images.unsplash.com/photo-1588560107833-167198a53677?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGhvc3R8ZW58MHx8fHwxNzY2Njg0NDYwfDA\u0026ixlib=rb-4.1.0\u0026auto=format\u0026fit=crop\u0026w=2200\u0026q=85"
+                                   }
+               }
+}

@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Crimson Rooster Kitchen</title>
+    <meta name="description" content="Contact page with a simple reservation form, hours, and location information." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container">
+        <nav class="nav" aria-label="Primary">
+          <a class="brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span class="brand-name">
+              <span>Crimson Rooster</span>
+              <span>Kitchen & Grill</span>
+            </span>
+          </a>
+
+          <input class="nav-check" type="checkbox" id="nav-check" />
+          <label class="nav-toggle" for="nav-check" role="button">Menu</label>
+
+          <div id="nav-links" class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+          </div>
+
+          <div class="nav-cta">
+            <a class="btn btn-outline" href="menu.html">View Menu</a>
+            <a class="btn btn-primary" href="#contact">Message Us</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="container">
+          <div class="hero-card">
+            <div class="hero-media" style="background-image:url('https://images.unsplash.com/photo-1588560107833-167198a53677?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGhvc3R8ZW58MHx8fHwxNzY2Njg0NDYwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=2200&q=80');" aria-hidden="true"></div>
+            <div class="hero-overlay" aria-hidden="true"></div>
+            <div class="hero-inner">
+              <div>
+                <div class="eyebrow"><span class="dot" aria-hidden="true"></span> Contact & reservations</div>
+                <h1>Let’s plan your next meal</h1>
+                <p>Send a message, ask about catering, or reserve a table. We’ll reply as soon as possible.</p>
+                <div class="breadcrumbs"><a href="index.html">Home</a> / Contact</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <h2 class="section-title">Contact</h2>
+              <p class="section-subtitle">Fill the form or use the details below. The form is front-end only (no backend).</p>
+            </div>
+          </div>
+
+          <div class="contact-grid">
+            <div class="info-list" aria-label="Restaurant information">
+              <div class="info thanks" id="thanks">
+                <h3>Thanks!</h3>
+                <p>Your message has been captured in the URL for demo purposes. We’ll get back to you shortly.</p>
+                <p><a class="btn btn-outline" href="#contact" style="padding:10px 12px;">Back to form</a></p>
+              </div>
+              <div class="info">
+                <h3>Address</h3>
+                <p>123 Main Street, Downtown</p>
+                <p>City, State 00000</p>
+              </div>
+              <div class="info">
+                <h3>Hours</h3>
+                <p>Mon–Thu: 11am–9pm</p>
+                <p>Fri–Sun: 11am–11pm</p>
+              </div>
+              <div class="info">
+                <h3>Phone & Email</h3>
+                <p>(555) 012-3456</p>
+                <p>hello@crimsonrooster.example</p>
+              </div>
+              <div class="card">
+                <div class="card-media">
+                  <img src="https://images.unsplash.com/photo-1707715166604-ba1d028a1b4e?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMHRhYmxlJTIwZm9vZHxlbnwwfHx8fDE3NjY2ODQ0NTV8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1200&q=80" alt="Restaurant table with food" loading="lazy" />
+                </div>
+                <div class="card-body">
+                  <h3>Quick note</h3>
+                  <p>For parties of 8+, tell us your preferred time and we’ll confirm availability.</p>
+                </div>
+              </div>
+            </div>
+
+            <form class="form" action="#thanks" method="get" aria-label="Contact form">
+              <div class="form-row">
+                <label>
+                  Name
+                  <input name="name" type="text" autocomplete="name" required />
+                </label>
+                <label>
+                  Email
+                  <input name="email" type="email" autocomplete="email" required />
+                </label>
+              </div>
+
+              <div class="form-row" style="margin-top:12px;">
+                <label>
+                  Phone (optional)
+                  <input name="phone" type="tel" autocomplete="tel" />
+                </label>
+                <label>
+                  Reason
+                  <select name="reason">
+                    <option>Reservation</option>
+                    <option>Catering</option>
+                    <option>Question</option>
+                    <option>Feedback</option>
+                  </select>
+                </label>
+              </div>
+
+              <label style="margin-top:12px;">
+                Message
+                <textarea name="message" required placeholder="Tell us what you’re looking for..."></textarea>
+              </label>
+
+              <div class="form-actions">
+                <button class="btn btn-primary" type="submit">Send Message</button>
+                <a class="btn btn-accent" href="menu.html">View Menu</a>
+                <a class="btn btn-outline" href="gallery.html">See Gallery</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="brand" aria-label="Crimson Rooster Kitchen">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <span class="brand-name">
+                <span>Crimson Rooster</span>
+                <span>Kitchen & Grill</span>
+              </span>
+            </div>
+            <p style="margin-top:10px;">A clean, modern look with red &amp; yellow energy — perfect for a chicken-serving brand.</p>
+          </div>
+          <div class="footer-links" aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+          </div>
+          <div>
+            <p><strong>Social</strong></p>
+            <p>Instagram: @crimsonrooster</p>
+            <p>TikTok: @crimsonrooster</p>
+          </div>
+        </div>
+        <p class="fineprint">© 2025 Crimson Rooster Kitchen.</p>
+      </div>
+    </footer>
+  </body>
+</html>

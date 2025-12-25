@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menu | Crimson Rooster Kitchen</title>
+    <meta name="description" content="Menu page with CSS Grid layout for chicken dishes, sides, desserts, and drinks." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container">
+        <nav class="nav" aria-label="Primary">
+          <a class="brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span class="brand-name">
+              <span>Crimson Rooster</span>
+              <span>Kitchen & Grill</span>
+            </span>
+          </a>
+
+          <input class="nav-check" type="checkbox" id="nav-check" />
+          <label class="nav-toggle" for="nav-check" role="button">Menu</label>
+
+          <div id="nav-links" class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html" aria-current="page">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+          </div>
+
+          <div class="nav-cta">
+            <a class="btn btn-outline" href="contact.html">Reserve</a>
+            <a class="btn btn-primary" href="contact.html#contact">Order inquiry</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="container">
+          <div class="hero-card">
+            <div class="hero-media" style="background-image:url('https://images.unsplash.com/photo-1612185533785-cc6f4c55030b?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHBsYXR0ZXJ8ZW58MHx8fHwxNzY2Njg0NDYwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=2200&q=80');" aria-hidden="true"></div>
+            <div class="hero-overlay" aria-hidden="true"></div>
+            <div class="hero-inner">
+              <div>
+                <div class="eyebrow"><span class="dot" aria-hidden="true"></span> Menu built with CSS Grid</div>
+                <h1>Our Menu</h1>
+                <p>Choose a category to filter. Every item is designed as a card so the layout stays clean, modern, and responsive.</p>
+                <div class="breadcrumbs"><a href="index.html">Home</a> / Menu</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="specials">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <h2 class="section-title">Pick your flavor</h2>
+              <p class="section-subtitle">Filter the grid to quickly find what you want — wings, sandwiches, plates, sides, and more.</p>
+            </div>
+          </div>
+
+          <div class="menu-controls" aria-label="Menu filters">
+            <input class="filter-input" type="radio" name="menu-filter" id="filter-all" checked />
+            <label class="chip" for="filter-all">All</label>
+            <input class="filter-input" type="radio" name="menu-filter" id="filter-chicken" />
+            <label class="chip" for="filter-chicken">Chicken</label>
+            <input class="filter-input" type="radio" name="menu-filter" id="filter-wings" />
+            <label class="chip" for="filter-wings">Wings</label>
+            <input class="filter-input" type="radio" name="menu-filter" id="filter-sandwich" />
+            <label class="chip" for="filter-sandwich">Sandwiches</label>
+            <input class="filter-input" type="radio" name="menu-filter" id="filter-sides" />
+            <label class="chip" for="filter-sides">Sides</label>
+            <input class="filter-input" type="radio" name="menu-filter" id="filter-dessert" />
+            <label class="chip" for="filter-dessert">Dessert</label>
+            <input class="filter-input" type="radio" name="menu-filter" id="filter-drinks" />
+            <label class="chip" for="filter-drinks">Drinks</label>
+
+            <div class="menu-grid" aria-label="Menu items grid">
+              <article class="card menu-item chicken sandwich">
+              <div class="card-media">
+                <img src="https://images.unsplash.com/photo-1703219342329-fce8488cf443?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHNhbmR3aWNofGVufDB8fHx8MTc2NjY4NDQ1Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=900&h=900&q=80" alt="Crispy chicken sandwich" loading="lazy" />
+              </div>
+              <div class="card-body">
+                <h3>Crimson Crunch Sandwich</h3>
+                <p>Buttermilk crispy chicken, slaw, pickles, spicy-sweet sauce.</p>
+                <div class="price"><span>$10.50</span> Best seller</div>
+              </div>
+            </article>
+
+            <article class="card menu-item chicken">
+              <div class="card-media">
+                <img src="https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8ZnJpZWQlMjBjaGlja2VufGVufDB8fHx8MTc2NjY4NDQ1MXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=900&h=900&q=80" alt="Fried chicken pieces on a plate" loading="lazy" />
+              </div>
+              <div class="card-body">
+                <h3>Classic Crispy (2/4 pcs)</h3>
+                <p>Golden, juicy, and seasoned with our house rub.</p>
+                <div class="price"><span>$8.00</span> / $14.00</div>
+              </div>
+            </article>
+
+            <article class="card menu-item wings chicken">
+              <div class="card-media">
+                <img src="https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHdpbmdzfGVufDB8fHx8MTc2NjY4NDQ1M3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=900&h=900&q=80" alt="Chicken wings" loading="lazy" />
+              </div>
+              <div class="card-body">
+                <h3>Sticky Wings (6/12)</h3>
+                <p>Honey-garlic, smoky buffalo, or mango heat.</p>
+                <div class="price"><span>$9.50</span> / $17.50</div>
+              </div>
+            </article>
+
+            <article class="card menu-item chicken">
+              <div class="card-media">
+                <img src="https://images.unsplash.com/photo-1712579733874-c3a79f0f9d12?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Z3JpbGxlZCUyMGNoaWNrZW58ZW58MHx8fHwxNzY2Njg0NDUzfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=900&h=900&q=80" alt="Grilled chicken" loading="lazy" />
+              </div>
+              <div class="card-body">
+                <h3>Flame-Grilled Half Chicken</h3>
+                <p>Citrus-herb rub, charred edges, choice of two sides.</p>
+                <div class="price"><span>$15.00</span> Fresh grill</div>
+              </div>
+            </article>
+
+            <article class="card menu-item chicken">
+              <div class="card-media">
+                <img src="https://images.unsplash.com/photo-1612185533785-cc6f4c55030b?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHBsYXR0ZXJ8ZW58MHx8fHwxNzY2Njg0NDYwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=900&h=900&q=80" alt="Chicken bowl with salad" loading="lazy" />
+              </div>
+              <div class="card-body">
+                <h3>Honey-Glaze Chicken Bowl</h3>
+                <p>Rice, citrus slaw, crunchy bites, honey glaze drizzle.</p>
+                <div class="price"><span>$12.00</span> Today’s special</div>
+              </div>
+            </article>
+
+            <article class="card menu-item sandwich">
+              <div class="card-media">
+                <img src="https://images.unsplash.com/photo-1703219342329-fce8488cf443?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y2hpY2tlbiUyMHNhbmR3aWNofGVufDB8fHx8MTc2NjY4NDQ1Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=900&h=900&q=80" alt="Chicken burger" loading="lazy" />
+              </div>
+              <div class="card-body">
+                <h3>Smoky BBQ Chicken Burger</h3>
+                <p>Grilled chicken, smoky BBQ, cheddar, crispy onions.</p>
+                <div class="price"><span>$11.50</span> Crowd favorite</div>
+              </div>
+            </article>
+
+            <article class="card menu-item sides">
+              <div class="card-media">
+                <img src="https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8ZnJlbmNoJTIwZnJpZXN8ZW58MHx8fHwxNzY2Njg0NDU2fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=900&h=900&q=80" alt="French fries" loading="lazy" />
+              </div>
+              <div class="card-body">
+                <h3>Crinkle Fries</h3>
+                <p>Sea salt, paprika, served with a dip of your choice.</p>
+                <div class="price"><span>$4.00</span> Add sauce +$1</div>
+              </div>
+            </article>
+
+            <article class="card menu-item sides">
+              <div class="card-media">
+                <img src="https://images.unsplash.com/photo-1537784969314-05a37106f68e?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y29sZXNsYXd8ZW58MHx8fHwxNzY2Njg0NDU2fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=900&h=900&q=80" alt="Coleslaw" loading="lazy" />
+              </div>
+              <div class="card-body">
+                <h3>Citrus Slaw</h3>
+                <p>Bright, crunchy, lightly sweet with a hint of lemon.</p>
+                <div class="price"><span>$3.50</span> Refreshing</div>
+              </div>
+            </article>
+
+            <article class="card menu-item sides">
+              <div class="card-media">
+                <img src="https://images.unsplash.com/photo-1570716774271-ab30ad4924a8?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8c3RyZWV0JTIwY29ybnxlbnwwfHx8fDE3NjY2ODQ0NTd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=900&h=900&q=80" alt="Grilled corn" loading="lazy" />
+              </div>
+              <div class="card-body">
+                <h3>Street Corn</h3>
+                <p>Butter, chili-lime, parmesan, and a touch of heat.</p>
+                <div class="price"><span>$4.50</span> Zesty</div>
+              </div>
+            </article>
+
+            <article class="card menu-item dessert">
+              <div class="card-media">
+                <img src="https://images.unsplash.com/photo-1536599524557-5f784dd53282?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8dmFuaWxsYSUyMGNha2UlMjBkZXNzZXJ0fGVufDB8fHx8MTc2NjY4NDQ1OXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=900&h=900&q=80" alt="Dessert cake" loading="lazy" />
+              </div>
+              <div class="card-body">
+                <h3>Warm Vanilla Cake</h3>
+                <p>Soft center, vanilla glaze, served warm.</p>
+                <div class="price"><span>$6.00</span> Sweet finish</div>
+              </div>
+            </article>
+
+            <article class="card menu-item drinks">
+              <div class="card-media">
+                <img src="https://images.unsplash.com/photo-1573500883698-e3ef47a95feb?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8bGVtb25hZGUlMjBkcmlua3xlbnwwfHx8fDE3NjY2ODQ0NTh8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=900&h=900&q=80" alt="Lemonade drink" loading="lazy" />
+              </div>
+              <div class="card-body">
+                <h3>Fresh Lemonade</h3>
+                <p>Classic or strawberry — bright, cold, and crisp.</p>
+                <div class="price"><span>$3.50</span> / $4.50</div>
+              </div>
+            </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="brand" aria-label="Crimson Rooster Kitchen">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <span class="brand-name">
+                <span>Crimson Rooster</span>
+                <span>Kitchen & Grill</span>
+              </span>
+            </div>
+            <p style="margin-top:10px;">Taste-forward, clean design — red &amp; yellow accents on a soft white canvas.</p>
+          </div>
+          <div class="footer-links" aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div>
+            <p><strong>Questions?</strong></p>
+            <p>Call: (555) 012-3456</p>
+            <p>Email: hello@crimsonrooster.example</p>
+          </div>
+        </div>
+        <p class="fineprint">© 2025 Crimson Rooster Kitchen.</p>
+      </div>
+    </footer>
+  </body>
+</html>
